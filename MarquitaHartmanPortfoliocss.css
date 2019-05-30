@@ -1,0 +1,188 @@
+
+
+
+
+
+body {
+    font-family: sans-serif;
+    background-image: url("subtle.jpg");
+}
+
+
+/*----Navigation Bar----*/  
+
+.navbar {
+    overflow: hidden;
+    background-color: #333;
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
+  
+  .navbar a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  .navbar a:hover {
+    background: #ddd;
+    color: black;
+  }
+
+/*----Navigation Bar----*/
+
+
+
+
+
+/*----Welcome Heading----*/
+
+.main {
+    padding: 0px 10px;
+    font-size: 25px;
+  }
+
+  .main h2 {
+      font-family: 'Josefin Sans', sans-serif;'
+  }
+
+img {
+    border: solid black;
+    border-radius: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    background-repeat: no-repeat;
+    width: 5em;
+    height: -10em;
+}
+
+h2 {
+    text-align: center;
+    font-family: Helvetica, sans-serif;
+}
+
+
+/*----Welcome Heading----*/
+
+
+
+/*--As a Person--*/
+
+h3 {
+    text-align: center;
+}
+
+.about-paragraph {
+        line-height: 200px;
+        height: 200px;
+        text-align: center;
+}
+      
+.about-paragraph p {
+        line-height: 1.5;
+        display: inline-block;
+        vertical-align: middle;
+        margin-right: 150px;
+        margin-left: 150px;
+        border: 3px solid #709CAA;
+}
+
+@media screen and (max-width: 923px) {
+    .about-paragraph {
+        font-size: 14px;
+    }
+}
+
+
+/*--As a Person--*/
+
+
+/*--Skills Section--*/
+
+#skills-section {
+    margin: auto;
+}
+
+
+
+.skills-paragraph {
+    line-height: 200px;
+    height: 200px;
+    text-align: center;
+}
+
+@media screen and (max-width: 923px) {
+    .skills-paragraph {
+        font-size: 14px;
+    }
+}
+
+.skills-paragraph p {
+    line-height: 1.5;
+    display: inline-block;
+    vertical-align: middle;
+    border: 3px solid #709CAA;
+    margin-right: 150px;
+    margin-left: 150px;
+}
+
+@media screen and (max-width: 923px) {
+    .skills-paragraph p {
+       border: 100%;
+    }
+}
+
+
+
+
+
+/*--Skills Section--*/
+
+
+/*---Contact Section*/
+
+.center-email {
+    line-height: 200px;
+    height: 200px;
+    text-align: center;
+}
+  
+.center-email p {
+    line-height: 1.5;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+/*---Contact Section---*/
+
+/*---Projects Section---*/
+
+.center-projects {
+    text-align: center;
+}
+
+.center-projects h4 {
+    font-size: 25px;
+}
+
+@media screen and (max-width: 923px) {
+    .center-projects h4 {
+        font-size: 14px;
+    }
+}
+
+/*---Projects Section---*/
+
+/*---Footer Container--*/
+
+
+/*---Footer Container--*/
+
+
+
