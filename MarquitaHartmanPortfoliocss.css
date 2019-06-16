@@ -2,10 +2,9 @@
 
 body {
     background-image: url("coffeecomputer.jpg");
-    background-repeat: no repeat;
+    background-repeat: no-repeat;
     background-position: center top;
     background-size: 100%;
-
 }
 
 p {
@@ -159,6 +158,11 @@ h3 {
     p.center-email {
         margin: 2px;
     }
+
+    .bad-kitty {
+        width: 30px;
+        height: 140px;
+    }
 }
 
 @media screen and (max-width: 768px) {
@@ -307,13 +311,19 @@ h3 {
 }
 
 .kitty-paragraph {
-    text-align: right;
-    font-family: serif;
+    color: black;
+    display: inline-block;
 }
 
 footer {
     color: black;
     text-align: center;
+    font-family: 'Cardo', serif;
+}
+
+.ending {
+    color: black;
+    position: absolute;
 }
 
 /*---Footer Container--*/
